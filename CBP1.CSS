@@ -115,7 +115,7 @@ padding:0;
   
 }
 .heading{
-  margin-top: 150px;
+  margin-top: px;
   color: purple;
 }
 .subheading{
@@ -131,14 +131,12 @@ ul{
 li{
   color:azure;
 }
-#link{
- color
-}
 
 
 
 
-  @media only screen and (min-width: 768px){
+
+  /* @media only screen and (min-width: 768px){ */
 /* define the default display ,
 advised to be
  phone outside this query and 
@@ -150,4 +148,4 @@ advised to be
   programme
   can make two media queries according to differnt sizes*/
 
-  }
+  

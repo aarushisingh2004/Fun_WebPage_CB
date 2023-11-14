@@ -1,0 +1,153 @@
+*{
+margin:0;
+padding:0;
+}
+
+.navbar{
+ 
+    font-size:10px;
+    font-style: italic;
+    display:inline;
+    /* border:solid rgb(229, 192, 255) ; */
+    /* background-color:rgb(229, 192, 255) ;
+    border-radius: 30px;  */
+    
+    height:1px;
+  
+    margin-left: 5px;
+    margin-right: 20px;
+
+    margin-bottom: 100px;
+    bottom:20px;
+  
+    
+}
+/* (first value applies to top-left corner, second value
+ applies to top-right and bottom-left corners, and third value applies to bottom-right corner): */
+
+
+.main_bar{
+    margin:10px 0px 25px 0px;
+   
+    background-color:rgb(157, 80, 234) ;
+    border-radius:0px 30px 0px 30px;
+    padding:7px;
+    padding-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height:10px;
+}
+/* unvisited link */
+.link1:link {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  .link1:visited {
+    color:rgb(0, 0, 0);
+  }
+  
+  /* mouse over link */
+  .link1:hover {
+    color: purple;
+  }
+  
+  /* selected link */
+  .link1:active {
+    color: blue;
+  }
+
+
+
+/*different links*/
+
+  .link2:link {
+    color:rgb(209, 194, 194);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  .link2:visited {
+    color:rgb(143, 169, 27);
+  }
+  
+  /* mouse over link */
+  .link2:hover {
+    color: purple;
+  }
+  
+  /* selected link */
+  .link2:active {
+    color: blue;
+  }
+  .allfont{
+    color:white;
+  }
+
+  /* about */
+  #about {
+
+    /* response */
+    width:100%;
+    /* Set the background images and their positions */
+    background-image: 
+        url('imgs_used/about.webp'),
+        url('imgs_used/profile.png');
+
+    /* Set the height and width of the container */
+    /* height: 300px;
+    width: 700px; */
+
+    /* Set the background repeat property */
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 20px 20px;
+    padding:20px;
+    margin:10px;
+
+    /* Set the background positions for each image */
+    background-position: left top, right top;
+}
+
+.heading1{
+  margin-top: 170px;
+  color: purple;
+  
+}
+.heading{
+  margin-top: 150px;
+  color: purple;
+}
+.subheading{
+  margin-top: 20px;
+  color: purple;
+}
+.bg{
+  background-color: black;
+}
+ul{
+  color:azure;
+}
+li{
+  color:azure;
+}
+#link{
+ color
+}
+
+
+
+
+  @media only screen and (min-width: 768px){
+/* define the default display ,
+advised to be
+ phone outside this query and 
+ everything that u wish to change
+  with size specicifed, write under 
+  this media query.  if a property 
+  is not defined inside  the media query 
+  it will have the default values specified in main 
+  programme
+  can make two media queries according to differnt sizes*/
+
+  }
